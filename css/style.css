@@ -25,6 +25,7 @@
 }
 
 .header-logo {
+	width: 25.95%;
 	padding: 14px 0 14px 24px;
 }
 
@@ -37,10 +38,11 @@
 	border-radius: 10px;
 	border: 0;
 	width: 100%;
-	background-image: url(images/search.png);
+	background-image: url(../images/search.png);
 	background-repeat: no-repeat;
-	background-position: 7px 7px;
+	background-position: 540px 10px;
 	padding: 14px 56px 14px 16px;
+	color: #FFFFFF;
 }
 
 .header-lists {
@@ -60,4 +62,17 @@
 	font-size: 18px;
 	line-height: 120%;
 	color: #FFFFFF;
+}
+
+.header-list-first_p {
+	padding: 0 64px 0 12px;
+}
+
+.header-list-second_p {
+	padding: 0 24px 0 12px;
+}
+
+.header-inp:focus {
+	outline: none;
+  border: 1px solid black;
 }
