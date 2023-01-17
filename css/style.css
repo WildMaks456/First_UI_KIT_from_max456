@@ -325,3 +325,80 @@ input:checked + .slider:before {
 .clr-tb {
 	color: #777777;
 }
+
+
+.fourthBlok {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 24px;
+}
+
+.fourthblok-card {
+	width: 32.7%;
+}
+
+.fb-card-top {
+	margin-bottom: -4px;
+}
+
+.fb-card-bottom {
+	background: #000000;
+	border-radius: 10px;
+}
+
+.fb-card-bottom h2 {
+	width: 81.7%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 110%;
+	font-feature-settings: 'liga' off;
+	color: #FFFFFF;
+	padding: 16px 0 43px 16px;
+}
+
+.fb-card-bottom-p {
+	width: 81.7%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 120%;
+	letter-spacing: -0.019em;
+	color: #FFFFFF;
+	padding: 0 0 16px 16px;
+}
+
+.fb-card-bottom-bottom {
+	display: flex;
+	align-items: center;
+}
+
+.bot-bot-p1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 140%;
+	font-feature-settings: 'liga' off;
+	color: #FFFFFF;
+	padding: 0 13px 16px 16px;
+}
+
+.bot-bot-img {
+	padding-bottom: 16px;
+}
+
+.bot-bot-p2 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 140%;
+	font-feature-settings: 'liga' off;
+	color: #FFFFFF;
+	padding: 0 0 16px 5px;
+}
+
+
