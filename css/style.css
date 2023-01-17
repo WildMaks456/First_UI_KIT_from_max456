@@ -175,3 +175,153 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+
+.thirdBlok {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.thirdBlok-firstB {
+	background: #FFFFFF;
+	border-radius: 10px;
+	width: 22.75%;
+}
+
+
+.tb-fb-top img {
+	padding: 12px 12px 0 12px;
+}
+
+.tb-fb-top-h3 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 110%;
+	font-feature-settings: 'liga' off;
+	color: #000000;
+	padding: 0 12px 12px 16px;
+}
+
+.tb-fb-bottom {
+	display: flex;
+}
+
+.thirdBlok-firstB a {
+	text-decoration: none;
+}
+
+.bot-left img {
+	padding: 0 12px 8px 16px;
+}
+
+#bot-left-lstimg {
+	padding: 0 12px 14px 16px;
+}
+
+.steppe_tag {
+	background: #93FF82;
+	border: 1px solid #000000;
+	border-radius: 6px;
+	width: 100px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 120%;
+	letter-spacing: -0.019em;
+	color: #000000;
+	padding: 4px 8px;
+}
+
+.bot-right-p2 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	width: 204px;
+	line-height: 120%;
+	font-feature-settings: 'liga' off;
+	color: #000000;
+	padding: 4px 0 0 4px;
+}
+
+.thirdBlok-secondB {
+	width: 52.3%;
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+
+.thirdBlok-secondB img {
+	padding: 16px;
+}
+
+.thirdBlok-secondB h2 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 110%;
+	font-feature-settings: 'liga' off;
+	color: #000000;
+	padding: 0 0 28px 16px;
+}
+
+.thirdBlok-thirdB {
+	background: #FFFFFF;
+	border-radius: 10px;
+	width: 22.75%;
+	height: 507.6px;
+	overflow-y: scroll;
+	
+}
+
+.thirdBlok-thirdB::-webkit-scrollbar {
+    width: 4px;
+}
+ 
+.thirdBlok-thirdB::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+    border-radius: 100px;
+}
+ 
+.thirdBlok-thirdB::-webkit-scrollbar-thumb {
+    background-color: #9C9CFF;
+    border-radius: 100px;
+}
+
+.thirdthird-p1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 120%;
+	color: #000000;
+	padding: 12px 0 12px 16px;
+}
+
+.line-tb {
+	border: 1px solid #E3E3E3;
+	width: 88.7%;
+	margin: auto;
+}
+
+.news-tb {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 120%;
+	text-transform: lowercase;
+	font-feature-settings: 'liga' off;
+	color: #000000;
+	padding: 12px 0 30px 16px;
+}
+
+.clr-tb {
+	color: #777777;
+}
