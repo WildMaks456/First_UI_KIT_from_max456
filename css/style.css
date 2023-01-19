@@ -894,3 +894,216 @@ input:checked + .slider:before {
 	top: 267px;
 	left: 92px;
 }
+
+.adds_mobile {
+	display: none;
+}
+
+.thirdBlok-secondB-mob {
+	display: none;
+}
+
+.tb-fb-top-h3-2 {
+	display: none;
+}
+
+.mobile-vers-third-thirdb {
+	display: none;
+}
+
+.navbarbottom {
+	display: none;
+}
+
+@media only screen and (max-width: 375px) {
+	.container {
+		width: 100%;
+		margin: auto;
+		background-color: #F7F7F7;
+	}
+	.adds_desktop {
+		display: none;
+	}
+	.adds_mobile {
+		display: block;
+	}
+	.addsBlok {
+		margin-bottom: 8px;
+	}
+	.wrapper {
+		width: 95.89%;
+	}
+	.header-middle {
+		display: none;
+	}
+	.header-lists {
+		display: none;
+	}
+	.header-logo {
+		width: 100%;
+		padding: 8px 0;
+		display: flex;
+		justify-content: center;
+	}
+	.header-logo img {
+		width: 142px;
+	}
+	.secondBlok {
+		display: none;
+	}
+	.thirdBlok {
+		padding-top: 16px;
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: 16px;
+	}
+	.thirdBlok-secondB-mob {
+		display: block;
+		width: 100%;
+		background: #FFFFFF;
+		border-radius: 10px;
+		padding: 12px;
+		margin-bottom: 16px;
+	}
+	.thirdBlok-secondB-mob img {
+		width: 100%;
+	}
+	.thirdBlok-secondB-mob h2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 100%;
+		color: #000000;
+		padding-top: 12px;
+	}
+	.thirdBlok-secondB {
+		display: none;
+	}
+	.thirdBlok-firstB {
+		background: #FFFFFF;
+		border-radius: 10px;
+		width: 100%;
+		margin-bottom: 8px;
+	}
+	.tb-fb-top img {
+		width: 100%;
+		padding: 12px;
+	}
+	.tb-fb-top-h3-2 {
+		display: block;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 100%;
+		color: #000000;
+		padding: 0 12px 12px 12px;
+	}
+	.tb-fb-top-h3 {
+		display: none;
+	}
+	.bot-left img {
+		padding: 0 12px 8px 12px;
+	}
+	.bot-right-p2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 140%;
+		font-feature-settings: 'liga' off;
+		color: #000000;
+		padding-top: 2px;
+	}
+	#bot-left-lstimg {
+		padding: 0 12px 14px 12px;
+	}
+	.thirdBlok-thirdB {
+		background: #FFFFFF;
+		border-radius: 10px;
+		width: 100%;
+		height: 224px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	.thirdBlok-thirdB::-webkit-scrollbar {
+			width: 4px;
+	}
+	.thirdBlok-thirdB::-webkit-scrollbar-track {
+			background-color: #FFFFFF;
+			border-radius: 100px;
+	}
+	.thirdBlok-thirdB::-webkit-scrollbar-thumb {
+			background-color: #9C9CFF;
+			border-radius: 100px;
+	}
+	.thirdthird-p1 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 18px;
+		line-height: 110%;
+		font-feature-settings: 'liga' off;
+		color: #000000;
+		padding: 12px 0 12px 12px;
+	}
+	.desktop-vers-third-thirdb {
+		display: none;
+	}
+	.mobile-vers-third-thirdb {
+		display: block;
+	}
+	.mob-vers-third-top {
+		display: flex;
+		width: 1150px;
+	}
+	.line-tb {
+		border: 1px solid #E3E3E3;
+		width: 1126px;
+		margin-left: 12px;
+	}
+	.news-tb {
+		padding: 12px 0 8px 12px;
+		width: 191px;
+	}
+	.news-tb2 {
+		padding: 4px 0 8px 12px;
+	}
+	.navbarbottom {
+		width: 100%;
+		padding: 8px;
+		background-color: #000000;
+		display: flex;
+		justify-content: space-between;
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.navarbottom-first {
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		gap: 8px;
+	}
+	.navarbottom-first p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 13px;
+		line-height: 18px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		letter-spacing: 0.03em;
+		color: #FFFFFF;
+	}
+	#clr-gray333 {
+		color: #777777;
+	}
+
+
+}
