@@ -77,7 +77,6 @@
 
 .header-inp:focus {
 	outline: none;
-	border: 1px solid black;
 }
 
 .secondBlok {
@@ -779,4 +778,119 @@ input:checked + .slider:before {
 	font-feature-settings: 'liga' off;
 	color: #FFFFFF;
 	padding: 0 16px 16px 16px;
+}
+
+
+.twelfthBlok {
+	padding-top: 16px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 306px;
+	background-image: url(../images/last-logo.png);
+	background-repeat: no-repeat;
+	background-position: 16px 390px;
+}
+
+.twelfthBlok-firstB {
+	width: 66.501%;
+	background: #000000;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.twelfthBlok-firstB-top h2 {
+	width: 53.172%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 110%;
+	font-feature-settings: 'liga' off;
+	color: #FFFFFF;
+	padding: 16px 0 117.95px 16px;
+}
+
+.twelfthBlok-firstB-bottom {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 16px 16px 0;
+}
+
+.twelfthBlok-firstB-bottom p {
+	width: 34.335%;
+	background: #FFFFFF;
+	border-radius: 10px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 110%;
+	text-align: center;
+	font-feature-settings: 'liga' off;
+	color: #000000;
+	padding: 13px 0;
+}
+
+.twelfthBlok-secondB {
+	transform: rotate(-90deg);
+	width: 148px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.twelfthBlok-secondB p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.019em;
+	color: #FFFFFF;
+	padding: 36px 30px;
+	background: #000000;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	height: 148px;
+	width: 360px;
+}
+
+.twelfthBlok-thirdB {
+	position: relative;
+	width: 21.023%;
+}
+
+.twelfthBlok-thirdB-img1 {
+	position: absolute;
+	top: 24px;
+	left: 45px;
+}
+
+.twelfthBlok-thirdB-img2 {
+	position: absolute;
+	top: 59px;
+	left: 204px;
+}
+
+.twelfthBlok-thirdB-img3 {
+	position: absolute;
+	top: 139px;
+	left: 65px;
+}
+
+.twelfthBlok-thirdB-img4 {
+	position: absolute;
+	top: 186px;
+	left: 183px;
+}
+
+.twelfthBlok-thirdB-img5 {
+	position: absolute;
+	top: 267px;
+	left: 92px;
 }
