@@ -915,6 +915,34 @@ input:checked + .slider:before {
 	display: none;
 }
 
+.fourthBlok-mobile {
+	display: none;
+}
+
+.fifthBlok-mobile {
+	display: none;
+}
+
+.sixthBlok-mobile {
+	display: none;
+}
+
+.seventhBlok-p2-mob {
+	display: none;
+}
+
+.ninthBlok-mobile {
+	display: none;
+}
+
+.eleventhBlok-mobile {
+	display: none;
+}
+
+.twelfthBlok-mobile {
+	display: none;
+}
+
 @media only screen and (max-width: 375px) {
 	.container {
 		width: 100%;
@@ -1104,6 +1132,364 @@ input:checked + .slider:before {
 	#clr-gray333 {
 		color: #777777;
 	}
-
-
+	.fourthBlok {
+		display: none;
+	}
+	.fourthBlok-mobile {
+		display: block;
+		margin-bottom: 16px;
+	}
+	.fourthBlok-mobile-mob {
+		width: 100%;
+		background: #000000;
+		border-radius: 10px;
+		padding: 12px;
+		margin-bottom: 8px;
+	}
+	.fourthBlok-mobile-mob-img {
+		width: 100%;
+	}
+	.fourthBlok-mobile-mob h2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 100%;
+		color: #FFFFFF;
+		padding-top: 12px;
+	}
+	.fb-card-bottom-bottom {
+		padding-top: 12px;
+	}
+	.bot-bot-p1 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 140%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		padding: 0;
+	}
+	.bot-bot-img {
+		padding: 0 5px 0 11px;
+	}
+	.bot-bot-p2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 140%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		padding: 0;
+	}
+	.fifthBlok {
+		display: none;
+	}
+	.fifthBlok-mobile {
+		display: block;
+	}
+	.fifthBlok-mobile-clr1 {
+		color: #000000;
+	}
+	.fifthBlok-mobile-mob-img {
+		width: 100%;
+		margin-bottom: -4px;
+	}
+	.fb-card-bottom-bottom1 {
+		padding: 0;
+		display: flex;
+		align-items: center;
+	}
+	#fifthBlok-mobile-clr2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 100%;
+		color: #000000;
+	}
+	.fifthBlok-mobile-clr3 {
+		background-color: #FFFFFF;
+	}
+	.mar16 {
+		margin-bottom: 16px;
+	}
+	.sixthBlok {
+		display: none;
+	}
+	.sixthBlok-mobile {
+		display: block;
+	}
+	.sixthBlok-mobile-mob-top {
+		width: 100%;
+		margin-bottom: -4px;
+	}
+	.fifthBlok-mobile-clr4 {
+		background-color: #302C2C;
+	}
+	.sixthBlok-mobile-mob-h2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 36px;
+		line-height: 110%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		padding: 0 0 8px 0;
+	}
+	.sixthBlok-mobile-mob-mob {
+		width: 100%;
+		border-radius: 10px;
+		padding: 12px;
+		margin-bottom: 8px;
+	}
+	.sixthBlok-mobile-mob-p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 120%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		padding-bottom: 12px;
+	}
+	.sixthBlok-mobile-mob-img {
+		width: 100%;
+		border-radius: 10px;
+		margin-bottom: -4px;
+	}
+	.seventhBlok {
+		width: 100%;
+	}
+	.seventhBlok-div {
+		width: 100%;
+		padding-bottom: 8px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.seventhBlok-div:last-child {
+		margin-bottom: -16px;
+	}
+	.seventhBlok-div img {
+		width: 86px;
+	}
+	.seventhBlok-p1 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 140%;
+		text-align: center;
+		color: #FFFFFF;
+		padding: 2px 17px;
+		background: #EA2E34;
+		border-radius: 20px;
+	}
+	.seventhb-rotate {
+		transform: rotate(-90deg);
+	}
+	.seventhBlok-p2 {
+		display: none;
+	}
+	.seventhBlok-p2-mob {
+		display: block;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 140%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		background: #000000;
+		border-radius: 10px;
+		padding: 12px;
+		margin-left: -45px;
+	}
+	.ninthBlok-mobile {
+		display: block;
+		margin-top: 35px;
+		padding-bottom: 16px;
+	}
+	.ninthBlok-mobile p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 25px;
+		line-height: 100%;
+		text-align: center;
+		letter-spacing: -0.019em;
+		color: #FFFFFF;
+		background: #000000;
+		border-radius: 10px;
+		padding: 19.5px 0;
+		margin-top: -24px;
+	}
+	.ninthBlok {
+		display: none;
+	}
+	.tenthBlok-top p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 25px;
+		line-height: 110%;
+		text-align: center;
+		color: #000000;
+		padding-bottom: 12px;
+	}
+	.tenb-top-img {
+		padding: 16px 0 12px 0;
+	}
+	.tenthBlok-top {
+		margin-bottom: 8px;
+	}
+	.tenthBlok-bottom {
+		width: 100%;
+		padding: 12px;
+	}
+	.tb-bot-inp {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 120%;
+		letter-spacing: -0.019em;
+		width: 100%;
+		padding: 9px 56px;
+		margin: 0;
+		text-transform: lowercase;
+		margin-bottom: 16px;
+	}
+	.tb-bot-but {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 25px;
+		line-height: 100%;
+		width: 100%;
+		text-transform: lowercase;
+		padding: 15.5px 0;
+		border: 0;
+	}
+	.eleventhBlok {
+		display: none;
+	}
+	.eleventhBlok-mobile {
+		padding-top: 8px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.eleventhBlok-left {
+		width: 100%;
+		background-color: #FFFFFF;
+		margin-bottom: 8px;
+	}
+	.eleventhBlok-right {
+		width: 100%;
+		padding: 12px;
+	}
+	.eleventhBlok-left p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 25px;
+		line-height: 110%;
+		font-feature-settings: 'liga' off;
+		color: #000000;
+		padding: 0 0 12px 12px;
+	}
+	.eleventhBlok-left img {
+		padding: 12px 0 196px 12px;
+	}
+	.eleventhBlok-right h2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 25px;
+		line-height: 110%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		padding-bottom: 16px;
+	}
+	.eleventhBlok-right button {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 25px;
+		line-height: 100%;
+		text-align: center;
+		letter-spacing: -0.019em;
+		color: #FFFFFF;
+		background: #EA2E34;
+		border-radius: 10px;
+		width: 100%;
+		padding: 15.5px 0;
+		border: 0;
+	}
+	.twelfthBlok {
+		display: none;
+	}
+	.twelfthBlok-mobile {
+		padding-top: 8px;
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: 288px;
+		background-image: url(../images/twelB-logo-mob.png);
+		background-repeat: no-repeat;
+		background-position: 0px 540px;
+	}
+	.twelfthBlok-firstB {
+		width: 100%;
+		padding: 12px;
+	}
+	.twelfthBlok-firstB h2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 19px;
+		line-height: 110%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		padding-bottom: 25px;
+	}
+	.twelfthBlok-firstB p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 22px;
+		line-height: 110%;
+		text-align: center;
+		font-feature-settings: 'liga' off;
+		color: #000000;
+		background: #FFFFFF;
+		border-radius: 10px;
+		width: 100%;
+		padding: 30.5px 0;
+	}
+	.twelfthBlok-secondB p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 18px;
+		line-height: 110%;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		width: 311px;
+		height: 80px;
+		padding: 30px 11px;
+	}
+	.twelfthBlok-secondB {
+		width: 311px;
+		margin: 124px 0px 0px -115px;
+	}
+	.twelfthBlok-thirdB {
+		margin-left: -120px;
+		position: relative;
+		width: 45%;
+}
 }
