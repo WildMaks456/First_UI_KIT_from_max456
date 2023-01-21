@@ -943,6 +943,34 @@ input:checked + .slider:before {
 	display: none;
 }
 
+.adds_tablet {
+	display: none;
+}
+.header-tablet {
+	display: none;
+}
+.secondBlok-tablet {
+	display: none;
+}
+.thirdBlok-firstB-tablet {
+	display: none;
+}
+.fifthBlok-tablet {
+	display: none;
+}
+.sixthBlok-mobile {
+	display: none;
+}
+.sixthBlok-tablet {
+	display: none;
+}
+.eleventhBlok-tablet {
+	display: none;
+}
+.twelfthBlok-tablet {
+	display: none;
+}
+
 @media only screen and (max-width: 375px) {
 	.container {
 		width: 100%;
@@ -1491,5 +1519,652 @@ input:checked + .slider:before {
 		margin-left: -120px;
 		position: relative;
 		width: 45%;
+	}
+	.header-tablet {
+		display: none;
+	}
+	.secondBlok-tablet {
+		display: none;
+	}
+	.thirdBlok-firstB-tablet {
+		display: none;
+	}
+	.fifthBlok-tablet {
+		display: none;
+	}
+	.sixthBlok-mobile {
+		display: none;
+	}
+	.eleventhBlok-tablet {
+		display: none;
+	}
+	.twelfthBlok-tablet {
+		display: none;
+	}
 }
+
+@media only screen and (min-width: 768px) and (max-width: 770px) {
+	.container {
+		width: 100%;
+		margin: auto;
+		background-color: #F7F7F7;
+	}
+	.adds_desktop {
+		display: none;
+	}
+	.adds_tablet {
+		display: block;
+	}
+	.addsBlok {
+		margin-bottom: 8px;
+	}
+	.wrapper {
+		width: 95.89%;
+	}
+	.header {
+		display: none;
+	}
+	.header-tablet {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background: #000000;
+		border-radius: 10px;
+	}
+	.header-right {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.header-lists {
+		display: none;
+	}
+	.header-logo {
+		padding: 15px 0;
+		display: flex;
+		justify-content: center;
+	}
+	.header-inp {
+		background: #302C2C;
+		border-radius: 10px;
+		border: 0;
+		width: 100%;
+		background-image: url(../images/search.png);
+		background-repeat: no-repeat;
+		background-position: 272px 13px;
+		background-size: 17px 17px;
+		padding: 14px 56px 14px 16px;
+		color: #FFFFFF;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 120%;
+	}
+	.header-right {
+		padding-right: 12px;
+	}
+	.header-right p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 120%;
+		color: #FFFFFF;
+		padding-right: 20px;
+	}
+	.header-logo img {
+		width: 194px;
+		padding-left: 16px;
+	}
+	.secondBlok {
+		display: none;
+	}
+	.secondBlok-tablet {
+		margin-top: 8px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.thirdBlok {
+		padding-top: 24px;
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: 24px;
+	}
+	.thirdBlok-secondB-mob {
+		display: block;
+		width: 100%;
+		background: #FFFFFF;
+		border-radius: 10px;
+		padding: 12px;
+		margin-bottom: 16px;
+	}
+	.thirdBlok-secondB-mob img {
+		width: 100%;
+	}
+	.thirdBlok-secondB-mob h2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 36px;
+		line-height: 100%;
+		color: #000000;
+		padding-top: 12px;
+	}
+	.thirdBlok-secondB {
+		display: none;
+	}
+	.thirdBlok-firstB {
+		display: none;
+	}
+	.thirdBlok-firstB-tablet {
+		background: #FFFFFF;
+		border-radius: 10px;
+		width: 100%;
+		margin-bottom: 16px;
+		display: flex;
+		padding: 12px;
+	}
+	.thirdBlok-firstB-tablet a {
+		text-decoration: none;
+	}
+	.tb-fb-top {
+		width: 60%;
+	}
+	.steppe_tag {
+		border-radius: 16px;
+	}
+	.tb-fb-top img {
+		width: 100%;
+		padding: 0 12px 12px 12px;
+	}
+	.tb-fb-top-h3-2 {
+		display: block;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 100%;
+		color: #000000;
+		padding: 0 12px 12px 12px;
+	}
+	.tb-fb-top-h3 {
+		display: none;
+	}
+	.bot-left img {
+		padding: 0 12px 16px 12px;
+	}
+	.bot-right-p2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 140%;
+		font-feature-settings: 'liga' off;
+		color: #000000;
+		padding-top: 2px;
+		width: 89%;
+	}
+	#bot-left-lstimg {
+		padding: 0 12px 14px 12px;
+	}
+	.thirdBlok-thirdB {
+		background: #FFFFFF;
+		border-radius: 10px;
+		width: 100%;
+		height: 246px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	.thirdBlok-thirdB::-webkit-scrollbar {
+			width: 4px;
+	}
+	.thirdBlok-thirdB::-webkit-scrollbar-track {
+			background-color: #FFFFFF;
+			border-radius: 100px;
+	}
+	.thirdBlok-thirdB::-webkit-scrollbar-thumb {
+			background-color: #9C9CFF;
+			border-radius: 100px;
+	}
+	.thirdthird-p1 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 18px;
+		line-height: 110%;
+		font-feature-settings: 'liga' off;
+		color: #000000;
+		padding: 24px 0 16px 24px;
+	}
+	.desktop-vers-third-thirdb {
+		display: none;
+	}
+	.mobile-vers-third-thirdb {
+		display: block;
+	}
+	.mob-vers-third-top {
+		display: flex;
+		width: 1150px;
+	}
+	.line-tb {
+		border: 1px solid #E3E3E3;
+		width: 1126px;
+		margin-left: 24px;
+	}
+	.news-tb {
+		padding: 12px 0 8px 24px;
+		width: 191px;
+	}
+	.news-tb2 {
+		padding: 4px 0 8px 24px;
+	}
+	.fourthBlok {
+		display: none;
+	}
+	.fourthBlok-mobile {
+		display: flex;
+		margin-bottom: 16px;
+		gap: 16px;
+	}
+	.fourthBlok-mobile-mob {
+		width: 50%;
+		background: #000000;
+		border-radius: 10px;
+		padding: 12px;
+		margin-bottom: 8px;
+	}
+	#lstchild1 {
+		display: none;
+	}
+	.fourthBlok-mobile-mob-img {
+		width: 100%;
+	}
+	.fourthBlok-mobile-mob h2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 100%;
+		color: #FFFFFF;
+		padding-top: 12px;
+	}
+	.fb-card-bottom-bottom {
+		padding-top: 12px;
+	}
+	.bot-bot-p1 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 140%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		padding: 0;
+	}
+	.bot-bot-img {
+		padding: 0 5px 0 11px;
+	}
+	.bot-bot-p2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 140%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		padding: 0;
+	}
+	.fifthBlok {
+		display: none;
+	}
+	.fifthBlok-mobile {
+		display: none;
+	}
+	.fifthBlok-tablet {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 14px;
+	}
+	.fifthBlok-mobile-clr1 {
+		color: #000000;
+	}
+	.fifthBlok-mobile-mob-img {
+		width: 100%;
+		margin-bottom: -4px;
+	}
+	.fifthBlok-tab {
+		width: 49%;
+	}
+	.fb-card-bottom-bottom1 {
+		padding: 0;
+		display: flex;
+		align-items: center;
+	}
+	#fifthBlok-mobile-clr2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 100%;
+		color: #000000;
+	}
+	.fifthBlok-mobile-clr3 {
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+	.mar16 {
+		margin-bottom: 16px;
+	}
+	.sixthBlok {
+		display: none;
+	}
+	.sixthBlok-mobile {
+		display: none;
+	}
+	.sixthBlok-tablet {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 14px;
+		padding-top: 20px;
+	}
+	.sixthBlok-mobile-mob {
+		width: 49%;
+	}
+	.fifthBlok-tab1 {
+		width: 100%;
+	}
+	.sixthBlok-mobile-mob-top {
+		width: 100%;
+		margin-bottom: -4px;
+	}
+	.fifthBlok-mobile-clr4 {
+		background-color: #302C2C;
+	}
+	.sixthBlok-mobile-mob-h2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 36px;
+		line-height: 110%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		padding: 0 0 8px 0;
+	}
+	.sixthBlok-mobile-mob-mob {
+		width: 100%;
+		border-radius: 10px;
+		padding: 12px;
+		margin-bottom: 8px;
+	}
+	.sixthBlok-mobile-mob-p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 120%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		padding-bottom: 12px;
+	}
+	.sixthBlok-mobile-mob-img {
+		width: 100%;
+		border-radius: 10px;
+		margin-bottom: -4px;
+	}
+	.seventhBlok {
+		width: 100%;
+	}
+	.seventhBlok-div {
+		width: 100%;
+		padding-bottom: 8px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.seventhBlok-div:last-child {
+		margin-bottom: 0px;
+	}
+	.seventhBlok-div img {
+		width: 86px;
+	}
+	.seventhBlok-p1 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 140%;
+		text-align: center;
+		color: #FFFFFF;
+		padding: 2px 30px;
+		background: #EA2E34;
+		border-radius: 20px;
+	}
+	.seventhb-rotate {
+		transform: rotate(-90deg);
+	}
+	.seventhBlok-p2 {
+		display: none;
+	}
+	.seventhBlok-p2-mob {
+		display: block;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 100%;
+		color: #000000;
+		background: #E3E3E3;
+		border-radius: 10px;
+		padding: 24px;
+		margin-left: -72px;
+	}
+	.ninthBlok-mobile {
+		display: none;
+		margin-top: 35px;
+		padding-bottom: 16px;
+	}
+	.ninthBlok {
+		display: none;
+	}
+	.tenthBlok-top p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 48px;
+		line-height: 110%;
+		text-align: center;
+		color: #000000;
+		padding-bottom: 12px;
+	}
+	.tenb-top-img {
+		padding: 16px 0 12px 0;
+	}
+	.tenthBlok-top {
+		margin-bottom: 8px;
+	}
+	.tenthBlok-bottom {
+		width: 100%;
+		padding: 12px;
+	}
+	.tb-bot-inp {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 51.2535px;
+		line-height: 120%;
+		letter-spacing: -0.019em;
+		width: 100%;
+		padding: 18px 117px;
+		margin: 0;
+		text-transform: lowercase;
+		margin-bottom: 16px;
+	}
+	.tb-bot-but {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 51.2535px;
+		line-height: 100%;
+		width: 100%;
+		text-transform: lowercase;
+		padding: 31.5px 0;
+		border: 0;
+	}
+	.eleventhBlok {
+		display: none;
+	}
+	.eleventhBlok-mobile {
+		display: none;
+	}
+	.eleventhBlok-tablet {
+		padding-top: 8px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.eleventhBlok-left {
+		width: 100%;
+		background-color: #FFFFFF;
+		margin-bottom: 8px;
+	}
+	.eleventhBlok-right {
+		width: 100%;
+		padding: 24px;
+	}
+	.eleventhBlok-left p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 48px;
+		line-height: 110%;
+		font-feature-settings: 'liga' off;
+		color: #000000;
+		padding: 0 0 12px 12px;
+	}
+	.eleventhBlok-left img {
+		width: 68.711%;
+		padding: 12px 0 270px 12px;
+	}
+	.eleventhBlok-right h2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 48px;
+		line-height: 110%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		padding-bottom: 24px;
+	}
+	.eleventhBlok-right button {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 36px;
+		line-height: 110%;
+		text-align: center;
+		letter-spacing: -0.019em;
+		color: #FFFFFF;
+		background: #FF4308;
+		border-radius: 10px;
+		width: 100%;
+		padding: 29px 0;
+		border: 0;
+	}
+	.twelfthBlok {
+		display: none;
+	}
+	.twelfthBlok-mobile {
+		display: none;
+	}
+	.twelfthBlok-tablet {
+		padding-top: 8px;
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: 430px;
+		background-image: url(../images/twelB-logo-tablet.png);
+		background-repeat: no-repeat;
+		background-position: 0px 1005px;
+	}
+	.twelfthBlok-firstB {
+		width: 100%;
+		padding: 24px;
+	}
+	.twelfthBlok-firstB h2 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 42px;
+		line-height: 110%;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		padding-bottom: 25px;
+	}
+	.twelfthBlok-firstB p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 48px;
+		line-height: 110%;
+		text-align: center;
+		font-feature-settings: 'liga' off;
+		color: #000000;
+		background: #FFFFFF;
+		border-radius: 10px;
+		width: 100%;
+		padding: 30.5px 0;
+	}
+	.twelfthBlok-secondB p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 36px;
+		line-height: 110%;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		font-feature-settings: 'liga' off;
+		color: #FFFFFF;
+		width: 637px;
+		height: 164px;
+		padding: 62px 30px;
+	}
+	.twelfthBlok-secondB {
+		width: 637px;
+		margin: 256px 0px 0px -236px;
+	}
+	.twelfthBlok-thirdB {
+		margin-left: -220px;
+		position: relative;
+		width: 75%;
+	}
+	.twelfthBlok-thirdB-img1 {
+		position: absolute;
+		top: 49px;
+		left: 92px;
+	}
+	
+	.twelfthBlok-thirdB-img2 {
+		position: absolute;
+		top: 120px;
+		left: 383px;
+	}
+	
+	.twelfthBlok-thirdB-img3 {
+		position: absolute;
+		top: 285px;
+		left: 100px;
+	}
+	
+	.twelfthBlok-thirdB-img4 {
+		position: absolute;
+		top: 381px;
+		left: 342px;
+	}
+	
+	.twelfthBlok-thirdB-img5 {
+		position: absolute;
+		top: 500px;
+		left: 187px;
+	}
 }
+
